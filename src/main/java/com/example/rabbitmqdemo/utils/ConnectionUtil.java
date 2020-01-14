@@ -19,7 +19,7 @@ public class ConnectionUtil {
         factory.setPort(5672);
         //设置账号信息，用户名、密码、vhost
         factory.setVirtualHost("testhost");
-        factory.setUsername("admin");
+        factory.setUsername("sxk");
         factory.setPassword("123456");
         // 通过工程获取连接
         Connection connection = factory.newConnection();
